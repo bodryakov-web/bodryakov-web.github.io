@@ -6,7 +6,9 @@ const btn_div = document.querySelector('#btn_div')
 const first_plus = document.querySelector('#first_plus')
 const first_minus = document.querySelector('#first_minus')
 const first_mult = document.querySelector('#first_mult')
-const first_div = document.querySelector('#first_plus')
+const first_div = document.querySelector('#first_div')
+
+
 
 const second_plus = document.querySelector('#second_plus')
 const second_minus = document.querySelector('#second_minus')
@@ -18,7 +20,7 @@ const res_minus = document.querySelector('#res_minus')
 const res_mult = document.querySelector('#res_mult')
 const res_div = document.querySelector('#res_div')
 
-console.log(res_div)
+
 
 
 btn_plus.addEventListener('click', () => {
@@ -39,5 +41,6 @@ btn_mult.addEventListener('click', () => {
 btn_div.addEventListener('click', () => {
     let res = Number(first_div.value) / Number(second_div.value)
     res_div.innerHTML = res
-    console.log(res)
+    console.log(first_div.value)
+    console.log(second_div.value)
 })
