@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    outline: 3px solid red;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
